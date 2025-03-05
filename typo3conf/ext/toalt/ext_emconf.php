@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Tobias Alt Playground',
+    'title' => 'toalt',
     'description' => 'Tobias Alt Playground',
     'category' => 'templates',
     'author' => 'Tobias Alt',
