@@ -1,14 +1,14 @@
 <?php
-;
+
 $EM_CONF[$_EXTKEY] = [
     'title' => 'toaltext',
     'description' => 'Tobias Alt Playground',
     'category' => 'template',
     'author' => 'Tobias Alt',
     'author_email' => 'to.alt@web.de',
-    'author_company' => 'toalt',
+    'author_company' => 'some company',
     'state' => 'stable',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'constraints' => [
         'depends' => [
             'typo3' => '12.4.0-12.4.99',
