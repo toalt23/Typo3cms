@@ -1,9 +1,9 @@
 <?php
-
+;
 $EM_CONF[$_EXTKEY] = [
     'title' => 'toaltext',
     'description' => 'Tobias Alt Playground',
-    'category' => 'Template',
+    'category' => 'template',
     'author' => 'Tobias Alt',
     'author_email' => 'to.alt@web.de',
     'author_company' => 'toalt',
