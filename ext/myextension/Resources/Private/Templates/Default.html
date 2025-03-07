@@ -1,5 +1,10 @@
 <f:layout name="Default" />
 
 <f:section name="Main">
-    <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
+    <div class="sidebar">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '1'}" />
+    </div>
+    <div class="main">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
+    </div>
 </f:section>
