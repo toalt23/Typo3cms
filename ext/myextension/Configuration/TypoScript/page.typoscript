@@ -50,9 +50,9 @@ lib.dynamicContent {
    90 = RESTORE_REGISTER
 }
 
-lib.myfooter = CONTENT
-lib.myfooter {
-table = tt_content
+lib.footerContent = CONTENT
+lib.footerContent {
+      table = tt_content
       select {
          pidInList = {$page.footer.pid}
          orderBy = sorting
