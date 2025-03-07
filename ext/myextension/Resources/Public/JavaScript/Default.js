@@ -1,1 +1,3 @@
-alert("Hello! I am an alert box!!");
+function sayHello() {
+    alert("Hello Dude!");
+}
