@@ -5,22 +5,33 @@ page {
     10 = FLUIDTEMPLATE
     10 {
         templateName = Default
+
         layoutRootPaths {
             10 = EXT:frontend/Resources/Private/Layouts
             20 = EXT:myextension/Resources/Private/Layouts
         }
+
         partialRootPaths {
             10 = EXT:frontend/Resources/Private/Partials
             20 = EXT:myextension/Resources/Private/Partials
         }
+
         templateRootPaths {
             10 = EXT:frontend/Resources/Private/Templates
             20 = EXT:myextension/Resources/Private/Templates
         }
+
         dataProcessing {
             10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
             10 {
                 as = mainNav
+            }
+        }
+
+        variables {
+            pagelayout = TEXT
+            pagelayout {
+                data = pagelayout
             }
         }
     }

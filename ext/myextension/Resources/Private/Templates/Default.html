@@ -1,9 +1,26 @@
 <f:layout name="Default" />
 
 <f:section name="Main">
+    <f:switch expression="{pagelayout}">
+        <f:case value="1">
+            <f:render section="SidebarLeft" />
+        </f:case>
+        <f:defaultCase>
+            <f:render section="Default" />
+        </f:defaultCase>
+    </f:switch>
+</f:section>
+
+<f:section name="SidebarLeft">
     <div class="sidebar">
         <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '1'}" />
     </div>
+    <div class="main">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
+    </div>
+</f:section>
+
+<f:section name="Default">
     <div class="main">
         <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
     </div>
