@@ -1,5 +1,5 @@
 page {
     footer {
-        pid = this
+        pid = 262
     }
 }
