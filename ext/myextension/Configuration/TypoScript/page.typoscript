@@ -41,7 +41,7 @@ page {
     }
 
     includeCSS {
-        style = EXT:myextension/Ressources/Public/Css/Default.css
+        style = EXT:myextension/Resources/Public/Css/Default.css
     }
 
     includeJSFooterlibs {
@@ -49,7 +49,7 @@ page {
     }
 
     includeJSFooter {
-        js = EXT:myextension/Ressources/Public/JavaScript/Default.js
+        js = EXT:myextension/Resources/Public/JavaScript/Default.js
     }
 }
 
