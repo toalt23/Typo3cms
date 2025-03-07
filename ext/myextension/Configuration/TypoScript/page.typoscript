@@ -17,6 +17,12 @@ page {
             10 = EXT:frontend/Resources/Private/Templates
             20 = EXT:myextension/Resources/Private/Templates
         }
+        dataProcessing {
+            10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+            10 {
+                as = mainNav
+            }
+        }
     }
 }
 
