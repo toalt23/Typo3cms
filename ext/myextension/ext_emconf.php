@@ -1,6 +1,5 @@
 <?php
 
-defined('TYPO3') or die();
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'My own Extension',
