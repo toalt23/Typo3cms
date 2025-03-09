@@ -5,7 +5,7 @@ use Psr\Http\Message\ResponseInterface;
 
 class DemoController extends ActionController {
 
-    public function showAction()
+    public function showAction(): ResponseInterface
     {
 
         $testContent = 'Hello World from an extabse plugin';
