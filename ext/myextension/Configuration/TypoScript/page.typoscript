@@ -87,3 +87,7 @@ lib.footerContent {
          where.insertData = 1
       }
 }
+
+tt_content.list.20 {
+    tx_myextension_controllers_action = < plugin.tx_myextension.controller.action
+}
