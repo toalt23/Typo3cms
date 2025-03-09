@@ -89,5 +89,5 @@ lib.footerContent {
 }
 
 tt_content.list.20 {
-    tx_myextension_controllers_action = < plugin.tx_myextension.controller.action
+    tx_myextension_democontroller_show = < plugin.tx_myextension.democontroller.show
 }
