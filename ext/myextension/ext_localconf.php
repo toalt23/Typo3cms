@@ -9,5 +9,5 @@ use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 ExtensionUtility::configurePlugin(
     'myextension',
     'Demo Plugin',
-    [\Tobias\MyExtension\Classes\Controller\DemoController::class => 'show'],
+    [\Tobias\MyExtension\Classes\Controller\DemoController::class => 'show']
 );
