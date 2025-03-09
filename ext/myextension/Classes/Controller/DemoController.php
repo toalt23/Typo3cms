@@ -1,5 +1,7 @@
 <?php
 
+namespace Tobias\MyExtension\Controller;
+
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use Psr\Http\Message\ResponseInterface;
 
