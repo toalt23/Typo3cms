@@ -12,5 +12,5 @@ ExtensionUtility::configurePlugin(
     'DemoPlugin',
     [DemoController::class => 'show'],
     [DemoController::class => 'show'],
-    ExtensionUtility::PLUGIN_TYPE_PLUGIN,
+    ExtensionUtility::PLUGIN_TYPE_PLUGIN
 );

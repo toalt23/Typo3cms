@@ -87,17 +87,3 @@ lib.footerContent {
          where.insertData = 1
       }
 }
-
-tx_myextension_show = PAGE
-tx_myextension_show {
-    typeNum = 6001
-    config {
-        disableAllHeaderCode = 1
-        disablePrefixComment = 1
-        additionalHeaders.10.header = Content-type:text/html
-        xhtml_cleaning = 0
-        admPanel = 0
-    }
-    10 = COA_INT
-    10.10 < tt_content.list.20.myextension_show
-}
